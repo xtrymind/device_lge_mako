@@ -45,7 +45,7 @@ ifeq ($(TARGET_PREBUILT_KERNEL),)
 ifeq ($(USE_SVELTE_KERNEL),true)
 LOCAL_KERNEL := device/lge/mako_svelte-kernel/kernel
 else
-LOCAL_KERNEL := device/lge/mako-kernel/kernel
+LOCAL_KERNEL := device/lge/mako/kernel
 endif
 else
 LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
