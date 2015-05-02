@@ -279,5 +279,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 	persist.sys.usb.config=mtp
 
+PRODUCT_BUILD_PROP_OVERRIDES += \
+	PRODUCT_NAME="occam" BUILD_FINGERPRINT="google/occam/mako:5.1/LMY47O/1767468:user/release-keys" \
+	PRIVATE_BUILD_DESC="occam-user 5.1 LMY47O 1767468 release-keys"
+
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 $(call inherit-product, hardware/qcom/msm8960/msm8960.mk)
